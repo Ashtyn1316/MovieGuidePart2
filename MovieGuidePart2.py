@@ -36,7 +36,7 @@ def delete_title(movie_list, index, file_name):
         print("nInvalid number. No movie was deleted.")
         
 def main():
-    movie_file = "movie.txt"
+    movie_file = "movies.txt"
     movie_list = populate_list(movie_file)
     
     while True:
